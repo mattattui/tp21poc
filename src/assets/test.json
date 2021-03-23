@@ -1,0 +1,40 @@
+{
+  "pageData": {
+    "availableLanguages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "content": {
+      "schemaVersion": 2,
+      "blocks": {
+        "row1": {
+          "id": "row1",
+          "component": "PageRowSingle",
+          "blocks": [
+            "abc"
+          ],
+          "languages": [
+            "en"
+          ]
+        },
+        "abc": {
+          "id": "abc",
+          "component": "PageText",
+          "copy": "<p>Hello World</p>",
+          "languages": [
+            "en"
+          ]
+        }
+      },
+      "langData": {
+        "en": {
+          "abc": {},
+          "row1": {}
+        }
+      },
+      "layout": [
+        "row1"
+      ]
+    }
+  }
+}
